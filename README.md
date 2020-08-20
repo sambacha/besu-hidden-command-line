@@ -3,7 +3,7 @@ command line options for hyperledger besu that are not "generally available"
 
 ## New Commands
 
-Experimental offline backup and restore: operator x-backup-state` and `operator x-restore-state
+Experimental offline backup and restore: `operator x-backup-state` and `operator x-restore-state`
 
 CLI option `--Xnat-kube-pod-name` to specify the name of the loadbalancer used by the Kubernetes nat manager
 
