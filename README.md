@@ -1,7 +1,16 @@
 # besu-hidden-command-line
 command line options for hyperledger besu that are not "generally available" 
 
+## New Commands
 
+Experimental offline backup and restore: operator x-backup-state` and `operator x-restore-state
+
+CLI option `--Xnat-kube-pod-name` to specify the name of the loadbalancer used by the Kubernetes nat manager
+
+## Commands now that have full support
+
+  The [Tracing API](https://besu.hyperledger.org/en/latest/Reference/API-Methods/#trace-methods) is no longer an Early Access feature and now has full support for `trace_replayBlockTransactions`, `trace_Block` and `trace_transaction`.  
+  
 ## Besu Unstable Commands 
 
 [besu/src/main/java/org/hyperledger/besu/cli/UnstableOptionsSubCommand](https://github.com/hyperledger/besu/blob/release-1.5.0/besu/src/main/java/org/hyperledger/besu/cli/UnstableOptionsSubCommand.java)
